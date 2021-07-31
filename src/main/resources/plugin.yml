@@ -1,0 +1,12 @@
+version: 1.0
+name: FirstPlugin
+main: ro.fasttrackit.plugindemo.Main
+author: Mark
+description: First plugin
+commands:
+  hello:
+    aliases: [hi, sup]
+    description: Hello test command
+  config:
+    aliases: [configuration]
+    description: Config test
